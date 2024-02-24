@@ -1,0 +1,76 @@
+
+.drawing-div{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    border: 1px white solid;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.left-div{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+}
+
+.upload-design-div{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright {
+    background-color: #027b9a;
+    color: #fff;
+    padding: 15px 30px;
+  text-align: center;
+}
+.footer-copyright2 {
+    display: none;
+}
+
+.footer-copyright-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.footer-copyright-text {
+  color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.footer-copyright-link {
+    color: #fff;
+    text-decoration: none;
+}
+@media(max-width: 1000px){
+    .tshirt-img{
+        height: 50vh !important;
+    }
+    .tshirt-img-div{
+        min-height: 50vh !important;
+        height: 50vh !important;
+        box-shadow: 0px 0px 0px !important;
+    }
+    .drawing-div{
+        position: absolute;
+        width: 30% !important;
+        height: 20%;
+        border: 1px green solid;
+        overflow: hidden;
+    margin-top: 40px !important;
+
+    }
+    .upload-design-div{
+        min-height: 30vh !important;
+        margin-top: 0vh !important;
+    }
+}
+
+
